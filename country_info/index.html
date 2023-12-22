@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="flag-solid.svg" />
+    <link rel="stylesheet" href="country-info.css" />
+    <title>Ülke Bilgileri</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1>Country info</h1>
+      <input
+        type="text"
+        id="input"
+        class="input"
+        placeholder="search a country"
+      />
+      <p class="info-text" id="info-text">type the country, press enter</p>
+      <div class="info" id="info">
+        <h1 class="country-name" id="country-name">Turkey</h1>
+        <img
+          class="img-flag"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAb1BMVEXjChf////iAADjABLjAA///PzmGiniAAbiAAr98PH3xsjrYWf2uLvwiI3ufIH4ysz96uvtcnj73uDpSlLyl5zmOUDkFiL62NrzpKfmMTnlLDPugYb60dPwkZXqUljqVl3zrrDoQkrraG33v8LynaE8qAGqAAAB/0lEQVRoge2Y3ZKCMAyFSwIWUPlTCqKrrvj+z7it7tgyikUgF7vTc+F4od+E5DRNYMzJycnJycnprwppsD4HKYbqk/uzogHK5TbNIqV0eylDmIsso83byDOUxTnALCkCse6Q74rWYnr0CMfiGa1ULacG78O5iwyqdiWVZvJ7zcIpbL5LO7mI83Lh32zTbK6FVzUT6GFTmey6BPDvqUAMgSdFJEbT/cZMd7yArr+li/aHcqTn0Y8N9he+wMCpHllUs5ZBjzVCthzF5keDnfeZGoUYwUZ20PC99cDgR5WFvWav7OzdiX8C106J7JbApmqG+wZyHfja3kVw4cXDew1fPdhZY7cbLgIv+aUjt/wehe6E5wEhKXj0zVUzkg16+T5DoeHDzQAjKLhXqEslab3CEg2stceH5PIG9+o8lt0yskUD+uQPKRRyFjz+0HvgHnDdDq9WuA/sWz/pgEOhXW4xoqzg7ivVcRfC5ncUGp68heNm27kGg6M9cEo4aVpoC0prRcpDRHr8SRsXaculvSxIrzkGiQ599guadLQgHYpkYmqD3jPOcTFunJODaGu0u5kHUdIR+mn4P3eH/3DS8P+8tqS/awsXzfGaeR95+1k9C1d7mGHhUondkK2KTLmNbMllr9fzy0zruZK8BC40LxZuur8SQYpXIk5OTk5OTk7/Tj9JThv8O5q93AAAAABJRU5ErkJggg=="
+          alt="photo"
+        />
+        <h3>Capital: <span class="capital" id="capital">Ankara</span></h3>
+        <h3>Region: <span class="region" id="region">dada</span></h3>
+        <h3>Currency Code: <span class="c-code" id="c-code">TRY</span></h3>
+        <h3>
+          Currency: <span class="currency" id="currency">Turkish Lira</span>
+        </h3>
+        <h3>
+          Population: <span class="population" id="population">44848468</span>
+        </h3>
+      </div>
+    </div>
+    <script src="country-info.js"></script>
+  </body>
+</html>
